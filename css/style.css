@@ -1,0 +1,158 @@
+html, body {
+	background: grey;
+	
+	font-family: fantasy;
+	margin: 0; 
+	 display: grid;
+	 grid-template-columns: auto  ;
+
+
+}
+.container_{
+	display: grid;
+	width: 800px
+	margin-left: auto;
+	margin-right: auto;
+	grid-template-columns: 1rf;
+	grid-template-rows: 1rf;
+	grid-template-areas: "header" "nav" "main" "content"
+}
+.header{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.content{
+	padding: 10px;
+
+}
+.nav{
+	width: 180px;
+	float: left;
+}
+.selected {
+	font-weight: bolder;
+
+}
+.main{
+	height: 40px
+	width: 600px;
+	float: left
+	background-color: black;
+	
+	
+
+
+}
+.ul{
+	height: 40px
+	width: 600px;
+	float: left
+	background-color: black;
+
+}
+.footer{
+	clear: both;
+	padding: 20px;
+	background-color: black;
+	color: black;
+	text-align: right;
+}
+
+}
+.facebook{
+	width: 10px;
+	height: 10px;
+}
+.instagram{
+	width: 20px;
+	height: 20px;
+}
+.picture{
+	width: 360px;
+	height:360px; 
+	overflow-y: auto; 
+	position: relative;
+
+}
+
+
+}
+.facebook2{
+	width: 10px
+	height: 10px;
+	
+
+}
+
+@media screen and(max-width: 360px )
+html, body {
+	
+	font-family: fantasy;
+	margin: 0; 
+	 display: grid;
+	 grid-template-columns: auto  ;
+
+
+}
+.container_{
+	display: grid;
+	width: 800px
+	margin-left: auto;
+	margin-right: auto;
+	grid-template-columns: 1rf;
+	grid-template-rows: 1rf;
+	grid-template-areas: "header" "nav" "main" "content"
+}
+.header{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.content{
+	padding: 10px;
+
+}
+.nav{
+	width: 180px;
+	float: left;
+}
+.selected {
+	font-weight: bolder;
+
+}
+.main{
+	width: 600px;
+	float: right;
+
+}
+.footer{
+	clear: both;
+	padding: 20px;
+	background-color: black;
+	color: black;
+	text-align: right;
+}
+
+}
+.facebook{
+	width: 20px;
+	height: 20px
+}
+.instagram{
+	width: 20px;
+	height: 20px;
+}
+.picture{
+	width: 360px;
+	height:360px; 
+
+}
+
+
+}
+.facebook2{
+	width: 10px
+	height: 10px;
+	}
+
